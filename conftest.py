@@ -3,9 +3,9 @@ import subprocess
 import pytest
 
 # Server connection details
-SERVER_IP = '192.168.50.167'  # Replace with your server's IP
-USERNAME = 'yull44ik'  # Replace with your username
-PASSWORD = '1111'  # Replace with your password
+SERVER_IP = ''  # Replace with your server's IP
+USERNAME = ''  # Replace with your username
+PASSWORD = ''  # Replace with your password
 
 @pytest.fixture(scope="function")
 def server():
